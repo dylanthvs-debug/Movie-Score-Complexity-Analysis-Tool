@@ -13,3 +13,4 @@ Some tools that have shown great potential in the musical disaggregation and ana
 - Music Transcription Studio
 - Music21 Python Toolkit
 - LilyPond/Humdrum
+- Librosa Python Library
