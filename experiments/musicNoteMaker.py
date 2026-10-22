@@ -80,7 +80,7 @@ plt.grid(True)
 #plt.show()
 
 # Signal 2 Generation:
-sf.write("A4_Harmonics1and2.wav", signal2, sr)
+#sf.write("A4_Harmonics1and2.wav", signal2, sr)
 
 # Signal 3 - Pure 880 Hz Signal:
 # Signal 3 Parameters:
