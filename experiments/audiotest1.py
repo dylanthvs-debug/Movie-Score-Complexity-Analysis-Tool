@@ -168,3 +168,16 @@ plt.ylim(0, 2000)
 plt.colorbar(format="%+2.0f dB")
 
 plt.show()
+
+# Fast Fourier Transform audio feature analysis:
+# Strongest frequency in FFT:
+peak_index = np.argmax(seg_mag)
+
+# Frequency Associated with that Peak:
+peak_freq = seg_freqs[peak_index]
+
+# Magnitude of Strongest Peak:
+peak_mag = seg_mag[peak_index]
+
+print("Strongest Frequency: ", peak_freq, "Hz")
+print("Strongest Magnitude: ", peak_mag)
